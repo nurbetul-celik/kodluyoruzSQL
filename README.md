@@ -1,0 +1,2 @@
+# kodluyoruzSQL
+kodluyoruzOdev
