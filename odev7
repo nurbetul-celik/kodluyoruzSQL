@@ -1,0 +1,11 @@
+SELECT rating FROM film
+GROUP BY rating
+
+SELECT replacement_cost,length FROM film
+GROUP BY replacement_cost,length HAVING length > 50
+
+SELECT store_id FROM customer
+GROUP BY store_id
+
+SELECT MAX(city),country_id FROM city
+GROUP BY country_id 
