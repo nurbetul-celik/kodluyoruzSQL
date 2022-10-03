@@ -1,0 +1,69 @@
+CREATE TABLE employee (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(50) NOT NULL,
+	birthday DATE ,
+	email VARCHAR(100) 
+);
+
+SELECT * FROM employee
+
+insert into employee (id, name, birthday, email) values (1, 'Natalya Ferreri', '2022/07/18', 'nferreri0@npr.org');
+insert into employee (id, name, birthday, email) values (2, 'Christy Bilsborrow', '2021/10/28', 'cbilsborrow1@nhs.uk');
+insert into employee (id, name, birthday, email) values (3, 'Bent Jaycox', '2022/08/09', 'bjaycox2@yahoo.co.jp');
+insert into employee (id, name, birthday, email) values (4, 'Hazel Livens', '2021/11/30', 'hlivens3@ycombinator.com');
+insert into employee (id, name, birthday, email) values (5, 'Frankie Kopman', '2022/09/13', 'fkopman4@cpanel.net');
+insert into employee (id, name, birthday, email) values (6, 'Glynn Grinaway', '2022/02/02', 'ggrinaway5@psu.edu');
+insert into employee (id, name, birthday, email) values (7, 'Loralyn Burdas', '2022/06/28', 'lburdas6@sakura.ne.jp');
+insert into employee (id, name, birthday, email) values (8, 'Eugenio Spikins', '2022/05/27', 'espikins7@blogtalkradio.com');
+insert into employee (id, name, birthday, email) values (9, 'Shaughn Adlard', '2022/08/07', 'sadlard8@guardian.co.uk');
+insert into employee (id, name, birthday, email) values (10, 'Erinn Corteney', '2022/08/13', 'ecorteney9@hao123.com');
+insert into employee (id, name, birthday, email) values (11, 'Hoyt Merrydew', '2022/03/30', 'hmerrydewa@ocn.ne.jp');
+insert into employee (id, name, birthday, email) values (12, 'Ulrick Hesey', '2022/08/17', 'uheseyb@newyorker.com');
+insert into employee (id, name, birthday, email) values (13, 'Nolly Maxweell', '2022/09/04', 'nmaxweellc@illinois.edu');
+insert into employee (id, name, birthday, email) values (14, 'Cello Collinson', '2022/05/28', 'ccollinsond@biglobe.ne.jp');
+insert into employee (id, name, birthday, email) values (15, 'Ashbey Thurner', '2022/04/26', 'athurnere@paginegialle.it');
+insert into employee (id, name, birthday, email) values (16, 'Fanchon Hadenton', '2022/02/11', 'fhadentonf@elegantthemes.com');
+insert into employee (id, name, birthday, email) values (17, 'Michaella Sommerly', '2022/06/25', 'msommerlyg@flickr.com');
+insert into employee (id, name, birthday, email) values (18, 'Elli Snailham', '2022/09/08', 'esnailhamh@unesco.org');
+insert into employee (id, name, birthday, email) values (19, 'Ynes Fidgett', '2022/05/24', 'yfidgetti@twitter.com');
+insert into employee (id, name, birthday, email) values (20, 'Alwyn Halwood', '2022/08/27', 'ahalwoodj@oracle.com');
+insert into employee (id, name, birthday, email) values (21, 'Johnath Drayn', '2021/10/27', 'jdraynk@slate.com');
+insert into employee (id, name, birthday, email) values (22, 'Robbie Moulden', '2021/12/10', 'rmouldenl@shareasale.com');
+insert into employee (id, name, birthday, email) values (23, 'Kalil Bassford', '2022/09/25', 'kbassfordm@flavors.me');
+insert into employee (id, name, birthday, email) values (24, 'Micheil Seer', '2022/03/24', 'mseern@twitpic.com');
+insert into employee (id, name, birthday, email) values (25, 'Dennet Choldcroft', '2022/08/14', 'dcholdcrofto@w3.org');
+insert into employee (id, name, birthday, email) values (26, 'Gerhardt Foort', '2022/09/03', 'gfoortp@amazon.de');
+insert into employee (id, name, birthday, email) values (27, 'Daisy Mynard', '2021/11/24', 'dmynardq@theglobeandmail.com');
+insert into employee (id, name, birthday, email) values (28, 'Belita Cayley', '2022/09/24', 'bcayleyr@dailymotion.com');
+insert into employee (id, name, birthday, email) values (29, 'Rikki Beaford', '2022/01/27', 'rbeafords@free.fr');
+insert into employee (id, name, birthday, email) values (30, 'Clarita Minot', '2022/08/12', 'cminott@wsj.com');
+insert into employee (id, name, birthday, email) values (31, 'Adelheid Favel', '2022/09/29', 'afavelu@kickstarter.com');
+insert into employee (id, name, birthday, email) values (32, 'Shurlock Sineath', '2022/02/08', 'ssineathv@cnn.com');
+insert into employee (id, name, birthday, email) values (33, 'Timoteo Garbott', '2021/10/30', 'tgarbottw@google.ca');
+insert into employee (id, name, birthday, email) values (34, 'Delia Lorkins', '2022/06/01', 'dlorkinsx@ning.com');
+insert into employee (id, name, birthday, email) values (35, 'Benny Abbado', '2021/12/12', 'babbadoy@cornell.edu');
+insert into employee (id, name, birthday, email) values (36, 'West Howling', '2021/11/12', 'whowlingz@discuz.net');
+insert into employee (id, name, birthday, email) values (37, 'Heloise McMullen', '2022/03/11', 'hmcmullen10@a8.net');
+insert into employee (id, name, birthday, email) values (38, 'Pippo Fowells', '2022/04/04', 'pfowells11@mapquest.com');
+insert into employee (id, name, birthday, email) values (39, 'Cory Robertsen', '2022/01/16', 'crobertsen12@google.nl');
+insert into employee (id, name, birthday, email) values (40, 'Ali Ardling', '2021/11/01', 'aardling13@is.gd');
+insert into employee (id, name, birthday, email) values (41, 'Gasper Jacobsen', '2022/03/31', 'gjacobsen14@icq.com');
+insert into employee (id, name, birthday, email) values (42, 'Marve McMeekin', '2022/05/28', 'mmcmeekin15@i2i.jp');
+insert into employee (id, name, birthday, email) values (43, 'Reta Gawn', '2022/08/23', 'rgawn16@weebly.com');
+insert into employee (id, name, birthday, email) values (44, 'Mavra Durrans', '2022/02/25', 'mdurrans17@sbwire.com');
+insert into employee (id, name, birthday, email) values (45, 'Lorena Odlin', '2022/06/13', 'lodlin18@slideshare.net');
+insert into employee (id, name, birthday, email) values (46, 'Ilario Nalder', '2022/05/31', 'inalder19@feedburner.com');
+insert into employee (id, name, birthday, email) values (47, 'Colman Roscher', '2022/01/29', 'croscher1a@com.com');
+insert into employee (id, name, birthday, email) values (48, 'Olivier Cordier', '2021/12/08', 'ocordier1b@nytimes.com');
+insert into employee (id, name, birthday, email) values (49, 'Eada Bohlje', '2021/10/06', 'ebohlje1c@state.tx.us');
+insert into employee (id, name, birthday, email) values (50, 'Rochella Duly', '2021/12/23', 'rduly1d@cnet.com');
+
+
+UPDATE employee 
+	SET name = 'xxxx' , 
+		birthday = '1980-04-05' , 
+		email = 'xx@gmail.com'
+	WHERE name LIKE 'L%'
+		
+DELETE  FROM employee
+WHERE name LIKE 'xxxx'
