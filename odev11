@@ -1,0 +1,18 @@
+SELECT actor.first_name , customer.first_name FROM actor
+FULL JOIN customer ON actor.first_name = customer.first_name;
+
+SELECT actor.first_name , customer.first_name FROM actor
+INNER JOIN customer ON actor.first_name = customer.first_name;
+
+SELECT actor.first_name , customer.first_name FROM actor
+LEFT JOIN customer ON actor.first_name = customer.first_name;
+
+
+SELECT actor.first_name , customer.first_name FROM actor
+FULL JOIN customer ON actor.first_name = customer.first_name
+EXCEPT ALL
+SELECT actor.first_name , customer.first_name FROM actor
+INNER JOIN customer ON actor.first_name = customer.first_name
+EXCEPT ALL
+SELECT actor.first_name , customer.first_name FROM actor
+LEFT JOIN customer ON actor.first_name = customer.first_name;
